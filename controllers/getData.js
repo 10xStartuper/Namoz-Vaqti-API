@@ -4,9 +4,10 @@ const { default: axios } = require("axios");
 
 const getData = () =>
   axios
-    .get("https://shosh.uz/uz/namoz-vaqtlari-toshkent/")
+    .get("https://shosh.uz/wp-json/wp/v2/pages/11559")
     .then(function (response) {
       // handle success
+      // console.log(response);
       return response;
     })
     .catch(function (error) {
