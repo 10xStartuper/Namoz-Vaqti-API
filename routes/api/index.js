@@ -6,7 +6,7 @@ router.get("/", (req, res) => {
 });
 
 //API Routes
-router.use("/thisMonth", require("./thisMonth"));
+router.use("/this-month", require("./thisMonth"));
 router.use("/today", require("./today"));
 
 module.exports = router;

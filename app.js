@@ -4,9 +4,10 @@ const app = express();
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.static(path.join(__dirname, "public"));
 app.set("view engine", "ejs");
 
 app.use("/", require("./routes/"));
 
-app.listen(process.env.PORT, () => console.log("Server has been started"));
+app.listen(process.env.PORT || 3000, () =>
+  console.log("Server has been started")
+);
