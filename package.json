@@ -15,6 +15,7 @@
   "author": "Mukhammadyusuf Abdurakhimov",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.24.0",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "node-html-parser": "^5.1.0"
