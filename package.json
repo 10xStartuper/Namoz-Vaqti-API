@@ -1,0 +1,20 @@
+{
+  "name": "namoz-vaqti-api",
+  "version": "1.0.0",
+  "description": "Namoz Vaqti API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Prayer",
+    "Times",
+    "JavaScript",
+    "API"
+  ],
+  "author": "Mukhammadyusuf Abdurakhimov",
+  "license": "MIT",
+  "dependencies": {
+    "node-html-parser": "^5.1.0"
+  }
+}
